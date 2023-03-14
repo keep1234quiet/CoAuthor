@@ -38,7 +38,7 @@ namespace CoAuthor.src
         public static int memory_recovery_interval = 60 * 3; // 3分钟回收一次内存
 
         public static Dictionary<string, string> languageDict = new Dictionary<string, string>();
-
+        
         public static System.Timers.Timer _timer;
         public static FormSet form_set;
         public static RibbonChatGPT ribbonForm;

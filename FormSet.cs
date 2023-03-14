@@ -280,5 +280,59 @@ namespace CoAuthor
             string url = "https://www.jianshu.com/u/2fc23add985d";
             System.Diagnostics.Process.Start(url);
         }
+
+        private void pictureBox_github_MouseHover(object sender, EventArgs e) {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void pictureBox_github_MouseLeave(object sender, EventArgs e) {
+            this.Cursor = Cursors.Arrow;
+        }
+
+        private void pictureBox_youtube_MouseEnter(object sender, EventArgs e) {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void pictureBox_youtube_MouseLeave(object sender, EventArgs e) {
+            this.Cursor = Cursors.Arrow;
+        }
+
+        private void pictureBox_discord_MouseEnter(object sender, EventArgs e) {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void pictureBox_discord_MouseLeave(object sender, EventArgs e) {
+            this.Cursor = Cursors.Arrow;
+        }
+
+        private void pictureBox_bilibili_MouseEnter(object sender, EventArgs e) {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void pictureBox_bilibili_MouseLeave(object sender, EventArgs e) {
+            this.Cursor = Cursors.Arrow;
+        }
+
+        private void pictureBox_zhihu_MouseEnter(object sender, EventArgs e) {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void pictureBox_zhihu_MouseLeave(object sender, EventArgs e) {
+            this.Cursor = Cursors.Arrow;
+        }
+
+        private void pictureBox_jianshu_MouseEnter(object sender, EventArgs e) {
+            this.Cursor = Cursors.Hand;
+        }
+
+        private void pictureBox_jianshu_MouseLeave(object sender, EventArgs e) {
+            this.Cursor = Cursors.Arrow;
+        }
+
+        private void linkLabel1_Click(object sender, EventArgs e) {
+            string k4q = "keep1234quiet@gmail.com";
+            Clipboard.SetText(k4q);
+            MessageBox.Show($"{k4q} copied!");
+        }
     }
 }

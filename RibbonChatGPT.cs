@@ -163,7 +163,7 @@ namespace CoAuthor
 
         private void button_help_Click(object sender, RibbonControlEventArgs e) {
             // 打开指定的网页
-            string url = "https://www.google.com";
+            string url = "https://github.com/keep1234quiet/CoAuthor";
             System.Diagnostics.Process.Start(url);
         }
 

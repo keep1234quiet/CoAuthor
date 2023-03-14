@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RibbonChatGPT_toggleButton_autowrite" xml:space="preserve">
+    <value>Auto-Complete</value>
+  </data>
+  <data name="RibbonChatGPT_button_refactor" xml:space="preserve">
+    <value>Restructure Content</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_1" xml:space="preserve">
+    <value>Custom Command 1</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_2" xml:space="preserve">
+    <value>Custom Command 2</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_3" xml:space="preserve">
+    <value>Custom Command 3</value>
+  </data>
+  <data name="RibbonChatGPT_button_setting" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="RibbonChatGPT_button_help" xml:space="preserve">
+    <value>User Guide</value>
+  </data>
+  <data name="FormSet_label_config_title" xml:space="preserve">
+    <value>Common Configuration Modification</value>
+  </data>
+  <data name="FormSet_label_write_introduce" xml:space="preserve">
+    <value>Writing Prompts</value>
+  </data>
+  <data name="FormSet_label_custom_command_1" xml:space="preserve">
+    <value>Custom Command 1</value>
+  </data>
+  <data name="FormSet_label_custom_command_2" xml:space="preserve">
+    <value>Custom Command 2</value>
+  </data>
+  <data name="FormSet_label_custom_command_3" xml:space="preserve">
+    <value>Custom Command 3</value>
+  </data>
+  <data name="FormSet_label_answer_num" xml:space="preserve">
+    <value>Candidate Answers</value>
+  </data>
+  <data name="FormSet_label_trigger_time" xml:space="preserve">
+    <value>Trigger Time</value>
+  </data>
+  <data name="FormSet_label_message_num" xml:space="preserve">
+    <value>Message Count</value>
+  </data>
+  <data name="FormSet_label_auto_write_enable" xml:space="preserve">
+    <value>Auto-Complete</value>
+  </data>
+  <data name="FormSet_label_proxy_enable" xml:space="preserve">
+    <value>Proxy Switch</value>
+  </data>
+  <data name="FormSet_label_proxy_address" xml:space="preserve">
+    <value>Proxy Address</value>
+  </data>
+  <data name="FormSet_label_language" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="FormSet_label_tutorial" xml:space="preserve">
+    <value>Tutorial</value>
+  </data>
+  <data name="FormSet_label_author_info" xml:space="preserve">
+    <value>Author Information</value>
+  </data>
+  <data name="FormSet_label_version" xml:space="preserve">
+    <value>Software Version</value>
+  </data>
+  <data name="FormSet_button_save_config" xml:space="preserve">
+    <value>Save Configuration</value>
+  </data>
+  <data name="FormSet_button_reset_config" xml:space="preserve">
+    <value>Restore Settings</value>
+  </data>
+  <data name="continue_write_str" xml:space="preserve">
+    <value>Continue writing according to what I provided (don't reply extra content)</value>
+  </data>
+  <data name="please_fill_apikey_str" xml:space="preserve">
+    <value>Please enter the APIKey in the settings first</value>
+  </data>
+  <data name="network_error_str" xml:space="preserve">
+    <value>Network request error. Please check if a proxy software is being used</value>
+  </data>
+  <data name="save_success" xml:space="preserve">
+    <value>Saved successfully</value>
+  </data>
+  <data name="save_failed" xml:space="preserve">
+    <value>Save failed</value>
+  </data>
+  <data name="apikey_blank_fill_please_str" xml:space="preserve">
+    <value>APIKey is empty, please fill in the APIKey in the settings page, otherwise the plugin function cannot be used</value>
+  </data>
+  <data name="reset_success_str" xml:space="preserve">
+    <value>Reset successfully</value>
+  </data>
+  <data name="reset_fail_str" xml:space="preserve">
+    <value>Reset failed</value>
+  </data>
+  <data name="load_config_error_str" xml:space="preserve">
+    <value>An error occurred while loading the configuration file content to the form display: </value>
+  </data>
+  <data name="reorgnize_sentence_str" xml:space="preserve">
+    <value>help me reorganize this paragraph, don't answer redundant content</value>
+  </data>
+  <data name="not_selected_content_str" xml:space="preserve">
+    <value>Not selected the content that needs to be refactored</value>
+  </data>
+  <data name="read_config_fail_or_cmd1_empty_str" xml:space="preserve">
+    <value>Failed to read the configuration file or no user command 1 is configured. 
+Please fill in and save the configuration. If the problem is not resolved, please provide feedback to the developer</value>
+  </data>
+  <data name="exec_cmd1_error_str" xml:space="preserve">
+    <value>Error executing custom command 1</value>
+  </data>
+  <data name="read_config_fail_or_cmd2_empty_str" xml:space="preserve">
+    <value>Failed to read the configuration file or no user command 2 is configured. 
+Please fill in and save the configuration. If the problem is not resolved, please provide feedback to the developer</value>
+  </data>
+  <data name="exec_cmd2_error_str" xml:space="preserve">
+    <value>Error executing custom command 2</value>
+  </data>
+  <data name="read_config_fail_or_cmd3_empty_str" xml:space="preserve">
+    <value>Failed to read the configuration file or no user command 3 is configured. 
+Please fill in and save the configuration. If the problem is not resolved, please provide feedback to the developer</value>
+  </data>
+  <data name="exec_cmd3_error_str" xml:space="preserve">
+    <value>Error executing custom command 3</value>
+  </data>
+  <data name="user_manual_str" xml:space="preserve">
+    <value>1. Prompt Completion: The principle of prompt completion is to concatenate the content A you wrote with the prompt completion word B, A+B. For example, if you write the content A as "I want to travel to Europe" and the prompt completion word B as "Please help me complete the remaining content," then the content sent to ChatGPT would be "Please help me complete the remaining content: I want to travel to Europe."
+
+2. Custom Commands: There are a total of 3 custom commands. The method of using custom commands is: for example, if you fill in "Translate the following content into English" in custom command 1, then when you select a piece of content and click custom command 1, it will send the selected content to ChatGPT and translate it into English.
+
+3. Candidate Answers: In prompt completion mode, ChatGPT will return multiple candidate answers. You can switch between them with the up and down keys and accept the answer as the final answer by pressing the tab key.
+
+4. Trigger Time: After you enter content, it will automatically request ChatGPT to help you complete the remaining content after a specified trigger time. You can adjust the trigger time to control ChatGPT's response speed and avoid triggering it too quickly.
+
+5. Message Quantity: More messages can allow ChatGPT to perceive more historical information, but since OpenAI limits the maximum number of messages to 4096 tokens, this value should not be too large, and the recommended value is 6.
+
+6. Auto Completion: In prompt completion mode, you can check the box for auto completion to control whether it will automatically complete the remaining content. If you check the box, you only need to enter content, and ChatGPT will automatically help you complete the remaining content. If you don't check auto completion, the ChatGPT plug-in function will be turned off.
+
+7. Proxy Switch: If you cannot directly access ChatGPT in your network environment, you can use a proxy to access it by checking the proxy switch. However, you also need to configure the proxy address for it to work.
+
+8. APIKEY: ChatGPT's APIKEY. You can apply for one on the ChatGPT official website at https://platform.openai.com/account/api-keys.
+
+9. Proxy Address: If you cannot directly access ChatGPT in your network environment, you can use a proxy address to access it. Note: The proxy address consists of IP:PORT and cannot be filled in with "http://" or "https://". It does not currently support proxies that require username and password authentication.
+
+10. Save Configuration: After you save the configuration, your configuration will be saved locally. The next time you open the software, the configuration will be automatically loaded.
+
+11. Reset Configuration: After you reset the configuration, your configuration will be restored to the default configuration. When you execute this operation, the data you previously filled in will be overwritten.
+
+12. Language: Currently supports 20 common languages. You can control ChatGPT's response language and the language displayed in the plugin interface by selecting a language.</value>
+  </data>
+</root>

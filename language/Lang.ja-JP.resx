@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RibbonChatGPT_toggleButton_autowrite" xml:space="preserve">
+    <value>自動補完</value>
+  </data>
+  <data name="RibbonChatGPT_button_refactor" xml:space="preserve">
+    <value>コンテンツ再構築</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_1" xml:space="preserve">
+    <value>カスタムコマンド1</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_2" xml:space="preserve">
+    <value>カスタムコマンド2</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_3" xml:space="preserve">
+    <value>カスタムコマンド3</value>
+  </data>
+  <data name="RibbonChatGPT_button_setting" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="RibbonChatGPT_button_help" xml:space="preserve">
+    <value>利用ガイド</value>
+  </data>
+  <data name="FormSet_label_config_title" xml:space="preserve">
+    <value>一般設定変更</value>
+  </data>
+  <data name="FormSet_label_write_introduce" xml:space="preserve">
+    <value>書き込みプロンプト</value>
+  </data>
+  <data name="FormSet_label_custom_command_1" xml:space="preserve">
+    <value>カスタムコマンド1</value>
+  </data>
+  <data name="FormSet_label_custom_command_2" xml:space="preserve">
+    <value>カスタムコマンド2</value>
+  </data>
+  <data name="FormSet_label_custom_command_3" xml:space="preserve">
+    <value>カスタムコマンド3</value>
+  </data>
+  <data name="FormSet_label_answer_num" xml:space="preserve">
+    <value>外された答え</value>
+  </data>
+  <data name="FormSet_label_trigger_time" xml:space="preserve">
+    <value>トリガータイム</value>
+  </data>
+  <data name="FormSet_label_message_num" xml:space="preserve">
+    <value>メッセージ数</value>
+  </data>
+  <data name="FormSet_label_auto_write_enable" xml:space="preserve">
+    <value>自動補完</value>
+  </data>
+  <data name="FormSet_label_proxy_enable" xml:space="preserve">
+    <value>プロキシ切替</value>
+  </data>
+  <data name="FormSet_label_proxy_address" xml:space="preserve">
+    <value>プロキシアドレス</value>
+  </data>
+  <data name="FormSet_label_language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="FormSet_label_tutorial" xml:space="preserve">
+    <value>ユーザーガイド</value>
+  </data>
+  <data name="FormSet_label_author_info" xml:space="preserve">
+    <value>著者情報</value>
+  </data>
+  <data name="FormSet_label_version" xml:space="preserve">
+    <value>ソフトウェアのバージョン</value>
+  </data>
+  <data name="FormSet_button_save_config" xml:space="preserve">
+    <value>設定を保存する</value>
+  </data>
+  <data name="FormSet_button_reset_config" xml:space="preserve">
+    <value>設定を復元する</value>
+  </data>
+  <data name="continue_write_str" xml:space="preserve">
+    <value>私が提供した内容に従って書き続けてください（冗長な内容には答えないでください）</value>
+  </data>
+  <data name="please_fill_apikey_str" xml:space="preserve">
+    <value>最初に設定で APIKey を入力してください</value>
+  </data>
+  <data name="network_error_str" xml:space="preserve">
+    <value>ネットワーク リクエスト エラーです。事前にプロキシ ソフトウェアを使用するかどうかを確認してください</value>
+  </data>
+  <data name="save_success" xml:space="preserve">
+    <value>正常に保存</value>
+  </data>
+  <data name="save_failed" xml:space="preserve">
+    <value>保存に失敗しました</value>
+  </data>
+  <data name="apikey_blank_fill_please_str" xml:space="preserve">
+    <value>APIKey が空です。設定ページで APIKey を入力してください。そうしないと、プラグイン機能を使用できません。</value>
+  </data>
+  <data name="reset_success_str" xml:space="preserve">
+    <value>リセット成功</value>
+  </data>
+  <data name="reset_fail_str" xml:space="preserve">
+    <value>リセットに失敗しました</value>
+  </data>
+  <data name="load_config_error_str" xml:space="preserve">
+    <value>構成ファイルの内容をフォーム表示にロード中にエラーが発生しました: </value>
+  </data>
+  <data name="reorgnize_sentence_str" xml:space="preserve">
+    <value>この段落を再編成するのを手伝ってください。冗長なコンテンツには答えないでください</value>
+  </data>
+  <data name="not_selected_content_str" xml:space="preserve">
+    <value>リファクタリングするものは何もチェックされていません</value>
+  </data>
+  <data name="read_config_fail_or_cmd1_empty_str" xml:space="preserve">
+    <value>構成ファイルの読み取りに失敗したか、ユーザー指示 1 を構成しませんでした。
+構成を入力して保存してください。解決されない場合は、この問題を開発者に報告してください。</value>
+  </data>
+  <data name="exec_cmd1_error_str" xml:space="preserve">
+    <value>カスタム命令1実行エラー</value>
+  </data>
+  <data name="read_config_fail_or_cmd2_empty_str" xml:space="preserve">
+    <value>構成ファイルの読み取りに失敗したか、ユーザー コマンド 2 を構成しませんでした。
+構成を入力して保存してください。解決されない場合は、この問題を開発者に報告してください。</value>
+  </data>
+  <data name="exec_cmd2_error_str" xml:space="preserve">
+    <value>カスタム命令 2 の実行中にエラーが発生しました</value>
+  </data>
+  <data name="read_config_fail_or_cmd3_empty_str" xml:space="preserve">
+    <value>構成ファイルの読み取りに失敗したか、ユーザー コマンド 3 を構成しませんでした。
+構成を入力して保存してください。解決されない場合は、この問題を開発者に報告してください。</value>
+  </data>
+  <data name="exec_cmd3_error_str" xml:space="preserve">
+    <value>カスタム命令 3 の実行中にエラーが発生しました</value>
+  </data>
+  <data name="user_manual_str" xml:space="preserve">
+    <value>1. 継続誘導語：継続誘導語の原則は、あなたが書いたコンテンツAに継続誘導語B、A+Bをつなぎ合わせることです. 例えば、あなたがコンテンツAを「ヨーロッパに旅行したい」と書いた場合、継続誘導語は続きます.ガイド ワード B は「次のコンテンツを完成させるのを手伝ってください」であり、ChatGPT に送信される最終的なコンテンツは「次のコンテンツを完成させるのを手伝ってください: ヨーロッパに旅行したい」です。
+
+2.カスタムコマンド：カスタムコマンドは全部で3種類あり、カスタムコマンドの使い方は以下のとおりです：例えば、カスタムコマンド1に「次の内容を英語に翻訳してください」と入力した場合、コンテンツ、カスタム指示 1 をクリックすると、選択したコンテンツが ChatGPT に送信され、ChatGPT によって英語に翻訳されます。
+
+3. 回答候補: コンテンツ継続モードでは、ChatGPT は複数の回答候補を返します。上下キーを切り替えてその中から 1 つを選択し、Tab キーを押して回答を最終的な回答として受け入れます。
+
+4. トリガー時間: コンテンツを入力すると、指定されたトリガー時間後に次のコンテンツを完了するのに役立つように ChatGPT に自動的に要求します. トリガー時間を調整することで、ChatGPT の応答速度を制御できます。時間偽トリガー。
+
+5. メッセージの数: メッセージが多いほど、ChatGPT はより多くの履歴情報を認識できますが、OpenAI はメッセージの最大数を 4096 トークンに制限しているため、この値は大きすぎてはならず、推奨値は 6 です。
+
+6. 自動継続: コンテンツ継続モードでは、自動継続をチェックすることで、自動更新するかどうかを制御できます. 自動継続をチェックすると、コンテンツを入力するだけで、ChatGPT が自動的にそれを補完します.内容、自動更新にチェックを入れない場合、ChatGPTプラグイン機能が終了します。
+
+7. プロキシ スイッチ: ネットワーク環境が ChatGPT に直接アクセスできない場合は、プロキシ スイッチをオンにすることでプロキシを使用して ChatGPT にアクセスできますが、機能するようにプロキシ アドレスを構成する必要もあります。
+
+8. APIKEY: ChatGPT の APIKEY です。ChatGPT 公式 Web サイトで申請できます。申請アドレスは https://platform.openai.com/account/api-keys です。
+
+9. プロキシ アドレス: ネットワーク環境が ChatGPT に直接アクセスできない場合は、プロキシ アドレスを設定することにより、プロキシを使用して ChatGPT にアクセスできます. 注: プロキシ アドレスは IP:PORT で構成され、http:// またはhttps :// は、ユーザー名とパスワードの認証を必要とするプロキシを一時的にサポートしていません。
+
+10. 構成を保存します。構成を保存すると、構成がローカルに保存され、次回ソフトウェアを開いたときに構成が自動的に読み込まれます。
+
+11. 構成のリセット: 構成をリセットすると、構成はデフォルト構成に戻り、この操作を実行すると、以前に入力したデータが上書きされます。
+
+12. 言語: 現在、一般的に使用されている 20 の言語をサポートしており、言語を選択することで、ChatGPT の返信の言語とプラグイン インターフェイスに表示される言語を制御できます。</value>
+  </data>
+</root>

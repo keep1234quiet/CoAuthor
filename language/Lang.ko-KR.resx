@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RibbonChatGPT_toggleButton_autowrite" xml:space="preserve">
+    <value>자동 재작성</value>
+  </data>
+  <data name="RibbonChatGPT_button_refactor" xml:space="preserve">
+    <value>콘텐츠 재구성</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_1" xml:space="preserve">
+    <value>사용자 정의 명령 1</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_2" xml:space="preserve">
+    <value>사용자 정의 명령 2</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_3" xml:space="preserve">
+    <value>사용자 정의 명령 3</value>
+  </data>
+  <data name="RibbonChatGPT_button_setting" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="RibbonChatGPT_button_help" xml:space="preserve">
+    <value>사용자 가이드</value>
+  </data>
+  <data name="FormSet_label_config_title" xml:space="preserve">
+    <value>자주 사용되는 설정 수정</value>
+  </data>
+  <data name="FormSet_label_write_introduce" xml:space="preserve">
+    <value>작성 가이드 단어 계속</value>
+  </data>
+  <data name="FormSet_label_custom_command_1" xml:space="preserve">
+    <value>사용자 정의 명령 1</value>
+  </data>
+  <data name="FormSet_label_custom_command_2" xml:space="preserve">
+    <value>사용자 정의 명령 2</value>
+  </data>
+  <data name="FormSet_label_custom_command_3" xml:space="preserve">
+    <value>사용자 정의 명령 3</value>
+  </data>
+  <data name="FormSet_label_answer_num" xml:space="preserve">
+    <value>후보 응답</value>
+  </data>
+  <data name="FormSet_label_trigger_time" xml:space="preserve">
+    <value>트리거 시간</value>
+  </data>
+  <data name="FormSet_label_message_num" xml:space="preserve">
+    <value>메시지 수</value>
+  </data>
+  <data name="FormSet_label_auto_write_enable" xml:space="preserve">
+    <value>자동 재작성</value>
+  </data>
+  <data name="FormSet_label_proxy_enable" xml:space="preserve">
+    <value>대리인 스위치</value>
+  </data>
+  <data name="FormSet_label_proxy_address" xml:space="preserve">
+    <value>대리인 주소</value>
+  </data>
+  <data name="FormSet_label_language" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="FormSet_label_tutorial" xml:space="preserve">
+    <value>사용자 가이드</value>
+  </data>
+  <data name="FormSet_label_author_info" xml:space="preserve">
+    <value>작성자 정보</value>
+  </data>
+  <data name="FormSet_label_version" xml:space="preserve">
+    <value>소프트웨어 버전</value>
+  </data>
+  <data name="FormSet_button_save_config" xml:space="preserve">
+    <value>설정 저장</value>
+  </data>
+  <data name="FormSet_button_reset_config" xml:space="preserve">
+    <value>설정 복원</value>
+  </data>
+  <data name="continue_write_str" xml:space="preserve">
+    <value>제가 제공한 내용대로 계속 작성해 주세요(중복 내용은 답변하지 마세요)</value>
+  </data>
+  <data name="please_fill_apikey_str" xml:space="preserve">
+    <value>먼저 설정에서 APIKey를 입력하세요.</value>
+  </data>
+  <data name="network_error_str" xml:space="preserve">
+    <value>네트워크 요청 오류, 전에 프록시 소프트웨어 사용 여부 확인</value>
+  </data>
+  <data name="save_success" xml:space="preserve">
+    <value>성공적으로 저장 되었음</value>
+  </data>
+  <data name="save_failed" xml:space="preserve">
+    <value>저장 실패</value>
+  </data>
+  <data name="apikey_blank_fill_please_str" xml:space="preserve">
+    <value>APIKey가 비어 있습니다. 설정 페이지에서 APIKey를 입력하세요. 그렇지 않으면 플러그인 기능을 사용할 수 없습니다.</value>
+  </data>
+  <data name="reset_success_str" xml:space="preserve">
+    <value>재설정 성공</value>
+  </data>
+  <data name="reset_fail_str" xml:space="preserve">
+    <value>재설정 실패</value>
+  </data>
+  <data name="load_config_error_str" xml:space="preserve">
+    <value>구성 파일의 내용을 양식 디스플레이에 로드하는 동안 오류가 발생했습니다.</value>
+  </data>
+  <data name="reorgnize_sentence_str" xml:space="preserve">
+    <value>이 단락을 재구성할 수 있도록 도와주세요. 중복된 콘텐츠에 답변하지 마세요.</value>
+  </data>
+  <data name="not_selected_content_str" xml:space="preserve">
+    <value>리팩토링할 항목이 선택되지 않았습니다.</value>
+  </data>
+  <data name="read_config_fail_or_cmd1_empty_str" xml:space="preserve">
+    <value>구성 파일을 읽지 못했거나 사용자 지침을 구성하지 않았습니다. 1, 
+구성을 입력하고 저장하십시오. 해결되지 않으면 이 문제를 개발자에게 보고하십시오.</value>
+  </data>
+  <data name="exec_cmd1_error_str" xml:space="preserve">
+    <value>사용자 지정 명령어 실행 중 1 오류</value>
+  </data>
+  <data name="read_config_fail_or_cmd2_empty_str" xml:space="preserve">
+    <value>구성 파일을 읽지 못했거나 사용자 명령을 구성하지 않았습니다. 2, 
+구성을 입력하고 저장하십시오. 해결되지 않으면 이 문제를 개발자에게 보고하십시오.</value>
+  </data>
+  <data name="exec_cmd2_error_str" xml:space="preserve">
+    <value>사용자 지정 명령어 실행 오류 2</value>
+  </data>
+  <data name="read_config_fail_or_cmd3_empty_str" xml:space="preserve">
+    <value>구성 파일을 읽지 못했거나 사용자 명령을 구성하지 않았습니다. 3, 
+구성을 입력하고 저장하십시오. 해결되지 않으면 이 문제를 개발자에게 보고하십시오.</value>
+  </data>
+  <data name="exec_cmd3_error_str" xml:space="preserve">
+    <value>사용자 지정 명령 실행 오류 3</value>
+  </data>
+  <data name="user_manual_str" xml:space="preserve">
+    <value>1. 계속 안내어: 계속 안내어의 원리는 자신이 작성한 내용 A와 계속 안내어 B, A+B를 이어붙이는 것입니다. 쓰기 가이드 워드 B는 "Please help me complete the following content"이고, ChatGPT로 전송된 최종 내용은 "Please help me complete the following content: I want to travel to Europe"입니다.
+
+2. 커스텀 명령어 : 총 3개의 커스텀 명령어가 있으며 커스텀 명령어의 사용법은 다음과 같습니다. 콘텐츠, 사용자 지정 지침 1을 클릭하면 선택한 콘텐츠가 ChatGPT로 전송되고 ChatGPT에서 영어로 번역됩니다.
+
+3. 후보 답변: 콘텐츠 연속 모드에서 ChatGPT는 여러 후보 답변을 반환합니다. 위/아래 키를 전환하여 그 중 하나를 선택하고 탭 키를 눌러 답변을 최종 답변으로 수락할 수 있습니다.
+
+4. 트리거 시간: 콘텐츠를 입력한 후 지정된 트리거 시간이 지나면 자동으로 ChatGPT에 다음 콘텐츠를 완료하도록 도와달라고 요청합니다. 트리거 시간을 조정하여 ChatGPT의 응답 속도를 제어할 수 있으며 너무 짧은 시간을 피할 수도 있습니다. 시간 거짓 트리거.
+
+5. 메시지 수: 메시지가 많을수록 ChatGPT가 더 많은 기록 정보를 인식할 수 있지만 OpenAI는 최대 메시지 수를 4096 토큰으로 제한하므로 이 값은 너무 크지 않아야 하며 권장 값은 6입니다.
+
+6. 자동계속 : 컨텐츠계속 모드에서 자동계속을 체크하여 자동갱신 여부를 제어할 수 있으며, 자동계속을 체크하시면 컨텐츠만 입력하시면 ChatGPT에서 자동으로 보완해 드립니다 다음을 완료해주세요 콘텐츠, 자동 갱신을 체크하지 않으면 ChatGPT 플러그인 기능이 종료됩니다.
+
+7. 프록시 스위치: 네트워크 환경이 ChatGPT에 직접 액세스할 수 없는 경우 프록시를 사용하여 프록시 스위치를 선택하여 ChatGPT에 액세스할 수 있지만 작동하려면 프록시 주소도 구성해야 합니다.
+
+8. APIKEY: ChatGPT의 APIKEY, ChatGPT 공식 웹사이트에서 신청할 수 있습니다. 신청 주소: https://platform.openai.com/account/api-keys.
+
+9. 프록시 주소: 네트워크 환경에서 ChatGPT에 직접 접속할 수 없는 경우 프록시를 사용하여 프록시 주소를 구성하여 ChatGPT에 접속할 수 있습니다.참고: 프록시 주소는 IP:PORT로 구성되며 http:// 또는 https://, 일시적으로 사용자 이름 및 암호 인증이 필요한 프록시를 지원하지 않습니다.
+
+10. 구성 저장: 구성을 저장하면 구성이 로컬에 저장되고 다음에 소프트웨어를 열 때 구성이 자동으로 로드됩니다.
+
+11. 구성 재설정: 구성을 재설정하면 구성이 기본 구성으로 돌아가고 이 작업을 수행하면 이전에 채워진 데이터를 덮어씁니다.
+
+12. 언어: 현재 일반적으로 사용되는 20개 언어를 지원합니다 언어를 선택하여 ChatGPT의 답장 언어와 플러그인 인터페이스에 표시되는 언어를 제어할 수 있습니다.</value>
+  </data>
+</root>

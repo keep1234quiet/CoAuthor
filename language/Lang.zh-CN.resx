@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RibbonChatGPT_toggleButton_autowrite" xml:space="preserve">
+    <value>自动续写</value>
+  </data>
+  <data name="RibbonChatGPT_button_refactor" xml:space="preserve">
+    <value>重构内容</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_1" xml:space="preserve">
+    <value>自定义指令1</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_2" xml:space="preserve">
+    <value>自定义指令2</value>
+  </data>
+  <data name="RibbonChatGPT_button_custom_command_3" xml:space="preserve">
+    <value>自定义指令3</value>
+  </data>
+  <data name="RibbonChatGPT_button_setting" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="RibbonChatGPT_button_help" xml:space="preserve">
+    <value>使用帮助</value>
+  </data>
+  <data name="FormSet_label_config_title" xml:space="preserve">
+    <value>常用配置修改</value>
+  </data>
+  <data name="FormSet_label_write_introduce" xml:space="preserve">
+    <value>续写引导词</value>
+  </data>
+  <data name="FormSet_label_custom_command_1" xml:space="preserve">
+    <value>自定义指令1</value>
+  </data>
+  <data name="FormSet_label_custom_command_2" xml:space="preserve">
+    <value>自定义指令2</value>
+  </data>
+  <data name="FormSet_label_custom_command_3" xml:space="preserve">
+    <value>自定义指令3</value>
+  </data>
+  <data name="FormSet_label_answer_num" xml:space="preserve">
+    <value>候选回答</value>
+  </data>
+  <data name="FormSet_label_trigger_time" xml:space="preserve">
+    <value>触发时间</value>
+  </data>
+  <data name="FormSet_label_message_num" xml:space="preserve">
+    <value>消息数量</value>
+  </data>
+  <data name="FormSet_label_auto_write_enable" xml:space="preserve">
+    <value>自动续写</value>
+  </data>
+  <data name="FormSet_label_proxy_enable" xml:space="preserve">
+    <value>代理开关</value>
+  </data>
+  <data name="FormSet_label_proxy_address" xml:space="preserve">
+    <value>代理地址</value>
+  </data>
+  <data name="FormSet_label_language" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="FormSet_label_tutorial" xml:space="preserve">
+    <value>使用教程</value>
+  </data>
+  <data name="FormSet_label_author_info" xml:space="preserve">
+    <value>作者信息</value>
+  </data>
+  <data name="FormSet_label_version" xml:space="preserve">
+    <value>软件版本</value>
+  </data>
+  <data name="FormSet_button_save_config" xml:space="preserve">
+    <value>保存配置</value>
+  </data>
+  <data name="FormSet_button_reset_config" xml:space="preserve">
+    <value>恢复设置</value>
+  </data>
+  <data name="continue_write_str" xml:space="preserve">
+    <value>按照我提供的内容继续写（不要回答多余的内容）</value>
+  </data>
+  <data name="please_fill_apikey_str" xml:space="preserve">
+    <value>请先在设置中填写APIKey</value>
+  </data>
+  <data name="network_error_str" xml:space="preserve">
+    <value>网络请求错误,前检查是否使用代理软件</value>
+  </data>
+  <data name="save_success" xml:space="preserve">
+    <value>保存成功</value>
+  </data>
+  <data name="save_failed" xml:space="preserve">
+    <value>保存失败</value>
+  </data>
+  <data name="apikey_blank_fill_please_str" xml:space="preserve">
+    <value>APIKey为空，请在设置页面填写APIKey，否则无法使用插件功能</value>
+  </data>
+  <data name="reset_success_str" xml:space="preserve">
+    <value>重置成功</value>
+  </data>
+  <data name="reset_fail_str" xml:space="preserve">
+    <value>重置失败</value>
+  </data>
+  <data name="load_config_error_str" xml:space="preserve">
+    <value>加载配置文件内容到窗体显示发生错误: </value>
+  </data>
+  <data name="reorgnize_sentence_str" xml:space="preserve">
+    <value>帮我重新组织一下这段话,不要回答多余的内容</value>
+  </data>
+  <data name="not_selected_content_str" xml:space="preserve">
+    <value>未选中需要重构的内容</value>
+  </data>
+  <data name="read_config_fail_or_cmd1_empty_str" xml:space="preserve">
+    <value>读取配置文件失败或没有配置用户指令1, 
+请填写并保存配置，若没有解决请向开发者反馈此问题</value>
+  </data>
+  <data name="exec_cmd1_error_str" xml:space="preserve">
+    <value>执行自定义指令1错误</value>
+  </data>
+  <data name="read_config_fail_or_cmd2_empty_str" xml:space="preserve">
+    <value>读取配置文件失败或没有配置用户指令2, 
+请填写并保存配置，若没有解决请向开发者反馈此问题</value>
+  </data>
+  <data name="exec_cmd2_error_str" xml:space="preserve">
+    <value>执行自定义指令2错误</value>
+  </data>
+  <data name="read_config_fail_or_cmd3_empty_str" xml:space="preserve">
+    <value>读取配置文件失败或没有配置用户指令3, 
+请填写并保存配置，若没有解决请向开发者反馈此问题</value>
+  </data>
+  <data name="exec_cmd3_error_str" xml:space="preserve">
+    <value>执行自定义指令3错误</value>
+  </data>
+  <data name="user_manual_str" xml:space="preserve">
+    <value>1. 续写引导词：续写引导词的原理是，将您书写的内容A与续写引导词B拼接，A+B, 比如您书写了内容A为“我想去欧洲旅游”, 续写引导词B为“请帮我补充完整后面的内容”, 那么最终的发送给ChatGPT的内容为：“请帮我补充完整后面的内容：我想去欧洲旅游”。
+
+2. 自定义指令：总共有3个自定义指令，自定义指令的使用方式为：比如您在自定义指令1中填入了“将下面的内容翻译成英语”，那么您选中一段内容后，点击自定义指令1，就会将您选中的内容发送给ChatGPT，然后由ChatGPT翻译成英语。
+
+3. 候选回答：在内容续写模式下，ChatGPT会返回多个候选回答，您可以通过切换上下键选择其中一个，按tab键接受该答案作为最终的回答。
+
+4. 触发时间：在您输入内容后，会在指定的触发时间后，自动请求ChatGPT帮你补充完整后面的内容，您可以通过调整触发时间来控制ChatGPT的回复速度，也可以避免时间太短导致误触发。
+
+5. 消息数量：更多的消息数量可以让ChatGPT感知到更多的历史信息，但由于OpenAI限制了最大的消息数量为4096个token，所以这个值不能太大，推荐值为6。
+
+6. 自动续写：在内容续写模式下，您可以通过勾选自动续写，来控制是否自动续写，如果勾选了自动续写，那么您只需要输入内容，ChatGPT会自动帮您补充完整后面的内容，如果不勾选自动续写，ChatGPT插件功能将会关闭。
+
+7. 代理开关：如果您的网络环境无法直接访问ChatGPT，那么您可以通过勾选代理开关，来使用代理访问ChatGPT，但同时您还需要配置代理地址才能奏效。
+
+8. APIKEY： ChatGPT的APIKEY，您可以在ChatGPT官网申请，申请地址为：https://platform.openai.com/account/api-keys。
+
+9. 代理地址：如果您的网络环境无法直接访问ChatGPT，那么您可以通过配置代理地址，来使用代理访问ChatGPT，注意：代理地址由IP:PORT组成，不能填写http://，也不能填写https://，暂时不支持需要用户名和密码验证的代理。
+
+10. 保存配置：保存配置后，您的配置将会保存到本地，下次打开软件时，配置将会自动加载。
+
+11. 重置配置：重置配置后，您的配置将会恢复到默认配置，执行此操作时您的之前填写的数据将会被覆盖。
+
+12. 语言：目前支持20种常用的语言，您可以通过选择语言来控制ChatGPT的回复语言和插件界面显示的语言。</value>
+  </data>
+</root>

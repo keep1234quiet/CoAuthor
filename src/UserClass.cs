@@ -24,6 +24,9 @@ namespace CoAuthor.src
         #region 计时器
         public void StartTimer() {
             try {
+                if(Config.Instance.EnableAutoWrite == false) {
+                     return;
+                }
                 if (CommonVariable._timer == null) {
                     CommonVariable._timer = new System.Timers.Timer(1000);
                     CommonVariable._timer.Elapsed += async (sender, e) => await Timer_Tick();
@@ -44,7 +47,7 @@ namespace CoAuthor.src
 
         public async Task Timer_Tick() {
             try {
-                if (CommonVariable.form_set != null)
+                if (CommonVariable.form_set != null || Config.Instance.EnableAutoWrite == false)
                     return;
                 CommonVariable.user_wait_secode += 1;
 

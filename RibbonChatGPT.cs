@@ -36,13 +36,23 @@ namespace CoAuthor
 
             // Auto set language
             CultureInfo culture = CultureInfo.InstalledUICulture;
-            if(Config.Instance.Language == "") {
+            
+            Config.Instance.Load();
+            if (Config.Instance.EnableAutoWrite == false) {
+                toggleButton_autowrite.Image = Properties.Resources.pen_write_gray;
+            }
+            else {
+                toggleButton_autowrite.Image = Properties.Resources.pen_write_blue;
+            }
+            
+            if (Config.Instance.Language == "") {
                 if (CommonVariable.languages_simple.Contains(culture.Name)) {
                     Config.Instance.Language = culture.Name;
                 }
                 else{ 
                     Config.Instance.Language = "en-US";
                 }
+                
                 Config.Instance.Save();
             }
             
@@ -147,6 +157,10 @@ namespace CoAuthor
                 toggleButton_autowrite.Image = Properties.Resources.pen_write_blue;
             }
             else {
+                System.Threading.Tasks.Task.Run(() => {
+                    System.Action action = () => { FormLoading.form_loading.HideLoading(); };
+                    FormLoading.form_loading.Invoke(action);
+                });
                 toggleButton_autowrite.Image = Properties.Resources.pen_write_gray;
             }
 
